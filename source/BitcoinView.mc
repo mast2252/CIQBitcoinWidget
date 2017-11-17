@@ -45,7 +45,7 @@ class BitcoinView extends Ui.View {
     }
    
     function makeRequest() {
-    	var url = "https://api.coinbase.com/v2/prices/BTC-USD/spot";
+    	var url = "https://api.coinbase.com/v2/prices/BTC-EUR/spot";
     	var params = {};
     	var options = {
     		:method => Comm.REQUEST_CONTENT_TYPE_JSON,
